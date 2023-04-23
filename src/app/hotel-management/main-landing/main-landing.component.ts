@@ -89,4 +89,8 @@ export class MainLandingComponent {
       alt: 'Image 8',
     },
   ];
+
+  closeNav() {
+    document.getElementById('mySidenav')!.style.width = '0';
+  }
 }
