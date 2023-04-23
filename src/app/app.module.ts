@@ -7,6 +7,8 @@ import { NgImageSliderModule } from 'ng-image-slider';
 import { HotelManagementModule } from './hotel-management/hotel-management.module';
 import { MainLandingComponent } from './hotel-management/main-landing/main-landing.component';
 import { FooterComponent } from './hotel-management/footer/footer.component';
+import { BookingRegistrationComponent } from './hotel-management/booking-registration/booking-registration.component';
+import { LoginComponent } from './hotel-management/login/login.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +16,8 @@ import { FooterComponent } from './hotel-management/footer/footer.component';
     HeaderComponent,
     MainLandingComponent,
     FooterComponent,
+    BookingRegistrationComponent,
+    LoginComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgImageSliderModule],
   providers: [NgImageSliderModule, HotelManagementModule],
