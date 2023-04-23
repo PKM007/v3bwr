@@ -20,11 +20,31 @@
 </header> -->
 
 <div id="mySidenav" class="sidenav" style="z-index: 100">
-  <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
+  <a href="javascript:void(0)" class="closebtn" (click)="closeNav()"
+    >&times; &nbsp;</a
+  >
+  <img src="assets/images/logo.png" alt="BWR Logo" height="20%" width="100%" />
   <a href="#">About</a>
   <a href="#">Services</a>
   <a href="#">Login</a>
   <a href="#">Contact</a>
 </div>
 
-<a style="font-size: 30px; cursor: pointer" (click)="openNav()">&#9776; open</a>
+<div style="background-color: #fc6203" height="130%">
+  <a style="font-size: 30px; cursor: pointer" (click)="openNav()">&#9776; </a>
+  <a
+    style="color: black; text-decoration: none !important"
+    routerLink="home"
+    routerLinkActive="active"
+    ariaCurrentWhenActive="page"
+  >
+    <img
+      src="assets/images/logo.png"
+      alt="BWR Logo"
+      height="30px"
+      width="30px"
+    />
+    <h2 style="display: inline">Brook and Wood Retreat</h2>
+  </a>
+  <br />
+</div>
